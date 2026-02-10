@@ -63,6 +63,14 @@ const obtenerEstadisticas = () => {
   console.log(`Total: ${total} | Completadas: ${completadas} | Pendientes: ${pendientes} | Progreso: ${porcentaje}%`);
 };
 
+// Manipulación manual del DOM
+const lista = document.getElementById('lista');
+tareas.forEach(tarea => {
+const li = document.createElement('li');
+li.textContent = tarea.texto;
+lista.appendChild(li);
+});
+
 // ===== DEMOSTRACIÓN =====
 console.log("=== DEMO DE LISTA DE TAREAS ===");
 mostrarTareas();
@@ -72,5 +80,3 @@ eliminarTarea(1);
 mostrarTareas();
 obtenerEstadisticas();
 obtenerPendientes();
-
-
