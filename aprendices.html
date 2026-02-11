@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Prueba Aprendices</title>
 </head>
 <body>
 
-    <script  src="src/aprendices.js"></script>
-    
+  <h1>Prueba de ejercicios JS</h1>
+
+  <button onclick="document.getElementById('resultado').textContent = JSON.stringify(obtenerAprobados(aprendices), null, 2)">
+    Mostrar aprobados
+  </button><br>
+
+  <button onclick="document.getElementById('resultado').textContent = calcularPromedio(aprendices)">
+    Mostrar promedio
+  </button><br>
+
+  <button onclick="document.getElementById('resultado').textContent = JSON.stringify(buscarPorNombre(aprendices, 'Luis'), null, 2)">
+    Buscar por nombre: Luis
+  </button><br>
+
+  <button onclick="document.getElementById('resultado').textContent = JSON.stringify(obtenerNombres(aprendices), null, 2)">
+    Mostrar solo nombres
+  </button>
+
+  <h3>Resultado:</h3>
+  <pre id="resultado">Aquí aparecerán los resultados...</pre>
+
+  <script src="src/aprendices.js"></script>
+
 </body>
 </html>
