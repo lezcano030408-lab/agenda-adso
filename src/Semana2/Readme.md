@@ -1,5 +1,3 @@
-Listo, te lo voy a poner como si lo hubiera escrito un estudiante normal, sencillo y sin tanta formalidad, con redacción más natural y algunos detallitos de ortografía.
-
 Este proyecto tiene varios ejercicios hechos en JavaScript usando React.
 La idea es practicar cosas basicas como arreglos, funciones, objetos y condicionales.
 
