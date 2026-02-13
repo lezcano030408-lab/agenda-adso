@@ -1,106 +1,85 @@
-Este proyecto tiene varios ejercicios hechos en JavaScript usando React.
-La idea es practicar cosas basicas como arreglos, funciones, objetos y condicionales.
+📘 Taller de JavaScript
+👥 Información general
 
-Objetivos
+Este taller fue realizado en grupo con el objetivo de practicar JavaScript y mejorar nuestra lógica de programación. Trabajamos diferentes ejercicios donde usamos funciones y arreglos para manejar datos como notas, contactos y productos.
 
-Practicar JavaScript basico
+🎯 Objetivos
 
-Aprender a usar arreglos y objetos
+Practicar el uso de JavaScript.
 
-Usar funciones para resolver problemas
+Aprender a trabajar en equipo.
 
-Mostrar resultados en consola
+Usar funciones para organizar mejor el código.
 
-Organizar mejor los archivos del proyecto
+Manipular arreglos con diferentes métodos.
 
-Ejercicio 1: Calculo de promedio (ejercicios.js)
+Resolver problemas básicos aplicando lógica.
 
-Objetivo:
-Practicar variables, cuentas matematicas y condicionales.
+🧩 Ejercicios realizados
+1️⃣ Promedio de un aprendiz
 
-Descripción:
-Se ponen tres notas de un aprendiz y se saca el promedio. Con eso se mira si aprueba o no.
+En este ejercicio:
 
-Lo que hace:
+Definimos nombre, ficha y tres notas.
 
-Suma las 3 notas
+Calculamos el promedio.
 
-Saca el promedio
+Mostramos si el aprendiz aprobaba o no (promedio mayor o igual a 3.0).
 
-Lo muestra con 2 decimales
+Esto nos ayudó a practicar operaciones matemáticas y condicionales.
 
-Si es mayor o igual a 3.0 aprueba, si no pierde
+2️⃣ Lista de aprendices
 
-Todo se ve en la consola
+Trabajamos con un arreglo de aprendices donde:
 
-Ejercicio 2: Analisis de notas con arreglos
+Filtramos los que aprobaron.
 
-Objetivo:
-Aprender a usar metodos como filter, reduce y map.
+Calculamos el promedio del grupo.
 
-Descripción:
-Hay un arreglo con aprendices y sus notas. Con eso se hacen varias cosas para ver como les fue.
+Buscamos un aprendiz por nombre.
 
-Lo que hace:
+Mostramos una lista con solo los nombres.
 
-Filtra los que aprobaron
+Aquí usamos métodos como filter, map, reduce y find.
 
-Cuenta cuantos pasaron
+3️⃣ Crear contactos
 
-Suma todas las notas y saca el promedio del grupo
+Creamos una función para generar contactos con:
 
-Saca solo los nombres y los muestra juntos
+Un ID automático.
 
-Ejercicio 3: Creacion de contactos
+Fecha de creación.
 
-Objetivo:
-Practicar objetos y funciones flecha.
+Nombre y teléfono.
 
-Descripción:
-Se crea una funcion que hace un contacto con sus datos.
+También practicamos la desestructuración para mostrar los datos más fácil.
 
-Lo que hace:
+4️⃣ Gestión de productos
 
-Crea un objeto con nombre y telefono
+En este ejercicio:
 
-Genera un id automatico con Date.now()
+Mostramos productos con stock disponible.
 
-Guarda la fecha actual
+Calculamos el valor total del inventario.
 
-Muestra los datos usando desestructuracion
+Aplicamos descuentos.
 
-Ejercicio: Gestion de aprendices (aprendices.js)
+Ordenamos los productos por precio.
 
-Objetivo:
-Practicar arreglos de objetos y metodos como filter, reduce, find y map.
+Esto nos ayudó a entender mejor cómo transformar y organizar información.
 
-Descripción:
-Se trabaja con una lista de aprendices que tienen nombre, ficha y nota. Se hacen funciones para buscar info o sacar datos.
+🧠 Qué aprendimos
 
-Funciones:
+A trabajar mejor con arreglos y objetos.
 
-obtenerAprobados → muestra los que pasaron
+A dividir el código en funciones.
 
-calcularPromedio → saca el promedio
+A usar métodos que facilitan el manejo de datos.
 
-buscarPorNombre → busca por nombre
+A trabajar en equipo y apoyarnos cuando algo no se entendía.
 
-obtenerNombres → devuelve solo los nombres
+💭 Reflexión del grupo
 
-Ejercicio 4: Gestion de productos (productos.js)
+Este taller nos ayudó a reforzar lo visto en clase. Algunas partes al inicio fueron un poco confusas, pero al trabajar en grupo fue más fácil entender los métodos y la lógica.
 
-Objetivo:
-Aprender a manejar productos y hacer cuentas del inventario.
-
-Descripción:
-Hay una lista de productos y se hacen operaciones con ellos.
-
-Funciones:
-
-obtenerDisponibles → los que tienen stock
-
-calcularInventario → valor total del inventario
-
-aplicarDescuento → baja el precio
-
-ordenarPorPrecio → ordena por precio
+Sentimos que mejoramos nuestra forma de pensar antes de programar y ahora tenemos más confianza usando JavaScript.
