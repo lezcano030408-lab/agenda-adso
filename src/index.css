@@ -1,8 +1,8 @@
 /* Fuente base y fondo general */
 body {
 font-family: sans-serif;
-background-color: #f2f2f2; /* gris claro */
-color: #222; /* texto oscuro legible */
+background-color: #2d0036; /* gris claro */
+color: #d1d1d1; /* texto oscuro legible */
 margin: 0;
 padding: 0;
 }
@@ -16,7 +16,7 @@ text-decoration: underline;
 }
 /* Botones genéricos */
 button {
-background-color: #008037;
+background-color: #3ba168;
 color: white;
 border: none;
 border-radius: 6px;
