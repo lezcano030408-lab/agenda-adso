@@ -23,7 +23,7 @@
   color: #555;
   font-size: 0.9rem;}
 
-  /* Contenedor del botón: lo empuja hacia la derecha y separa del contenido */
+  /*1  Contenedor del botón: lo empuja hacia la derecha y separa del contenido */
 .tarjeta-contacto .acciones {
   margin-top: 8px;
   display: flex;
