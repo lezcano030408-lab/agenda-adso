@@ -1,6 +1,6 @@
 :root {
-  --morado: #ffffff;
-  --morado-oscuro: #5b21b6;
+  --morado: #0fcc32;
+  --morado-oscuro: #26ce10;
   --gris: #374151;
   --borde: #d1d5db;
   --error: #dc2626;
@@ -10,7 +10,7 @@
 
 body {
   background: #f8fafc;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   color: var(--gris);
 }
@@ -24,16 +24,13 @@ body {
 .app-title {
   text-align: center;
   font-size: 1.8rem;
-  font-weight: 700;
   color: var(--morado);
-  margin: 0.3rem 0;
 }
 
 .subtitulo {
   text-align: center;
   font-size: 0.95rem;
-  color: #b0b5bd;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .form-contacto {
@@ -41,37 +38,24 @@ body {
   padding: 1rem;
   border: 1px solid var(--borde);
   border-radius: var(--radio);
-  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  margin-bottom: 1.2rem;
-}
-
-label {
-  font-size: 0.85rem;
-  font-weight: 500;
 }
 
 input {
   padding: 0.65rem;
   border: 1px solid var(--borde);
   border-radius: var(--radio);
-  font-size: 0.9rem;
 }
 
 .btn-primario {
   background: var(--morado);
-  color: #fff;
+  color: white;
   padding: 0.7rem;
   border: 0;
   border-radius: var(--radio);
   cursor: pointer;
-  transition: 0.2s;
-}
-
-.btn-primario:hover {
-  background: var(--morado-oscuro);
 }
 
 .tarjeta-contacto {
@@ -79,39 +63,19 @@ input {
   border: 1px solid var(--borde);
   border-radius: var(--radio);
   padding: 1rem;
-  box-shadow: var(--shadow);
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  margin-bottom: 0.7rem;
-}
-
-.tarjeta-contacto h3 {
-  margin: 0;
-  font-weight: 600;
-  color: var(--morado-oscuro);
-}
-.tarjeta-contacto p{
-  color: rgb(0, 0, 0);
-
+  margin-top: 0.7rem;
 }
 
 .acciones {
   display: flex;
   justify-content: flex-end;
-  margin-top: 0.3rem;
 }
 
 .btn-eliminar {
   background: var(--error);
-  color: #fff;
+  color: white;
   padding: 0.45rem 0.75rem;
   border: 0;
   border-radius: var(--radio);
   cursor: pointer;
-  font-size: 0.85rem;
-}
-
-.btn-eliminar:hover {
-  filter: brightness(0.85);
 }
