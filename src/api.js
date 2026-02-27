@@ -1,4 +1,4 @@
-const API = "http://localhost:300/contactos";
+const API = "http://localhost:3000/contactos";
 // GET - Listar todos los contactos
 export async function listarContactos() {
 const res = await fetch(API);

@@ -1,17 +1,17 @@
 {
   "contactos": [
     {
-      "id": 1,
-      "nombre": "Gustavo",
-      "telefono": "3217532037",
-      "correo": "gabodorado@gmail.com",
-      "etiqueta": "profe"
-    },
-    {
-      "id": "bb27",
+      "id": "560e",
       "nombre": "Oscar",
       "telefono": "312312",
-      "correo": "alala@sena.edu.co",
+      "correo": "petro@sena.edu.co",
+      "etiqueta": "Primo"
+    },
+    {
+      "id": "e302",
+      "nombre": "Oscar",
+      "telefono": "312312",
+      "correo": "petro@sena.edu.co",
       "etiqueta": "Primo"
     }
   ]
